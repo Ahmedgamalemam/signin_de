@@ -360,10 +360,8 @@
     <main class="main-login d-flex align-items-center my-auto">
       <section class="d-flex flex-column back-color-light rounded-3 p">
         <div>
-          <h3 class="color-secondary">Accedi al tuo account.</h3>
-          <p style="color: #686868">
-            Bentornato! Accedi usando il tuo indirizzo email
-          </p>
+          <h3 class="color-secondary">Log in op je account.</h3>
+          <p style="color: #686868">Welkom terug! Log in met je e-mailadres</p>
         </div>
 
         <form id="api" class="w-100" method="post" autocomplete="off">
@@ -374,7 +372,7 @@
               type="text"
               class="inp"
               required
-              placeholder="Indirizzo email"
+              placeholder="E-mailadres"
             />
           </div>
 
@@ -385,26 +383,14 @@
               type="password"
               class="inp mb-0"
               required
-              placeholder="Password"
+              placeholder="Wachtwoord"
             />
           </div>
 
-          <button id="next" type="submit" class="bton">Accedi</button>
+          <button id="next" type="submit" class="bton">Inloggen</button>
         </form>
       </section>
     </main>
-
-    <!-- scripts -->
-
-    <!-- <script src="https://alcdn.msauth.net/lib/1.0.0/js/msal.js"></script>
-    <script>
-      // Required to initialize the page for Azure B2C
-      document.addEventListener("DOMContentLoaded", function () {
-        if (typeof PageLoaded === "function") {
-          PageLoaded();
-        }
-      });
-    </script> -->
 
     <script src="https://alcdn.msauth.net/lib/1.0.0/js/msal.js"></script>
     <script type="text/javascript">
